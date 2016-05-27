@@ -10,8 +10,8 @@ namespace Uppgift3.Models
     {
         public double GetCurrentSpeed(string distance, string time)
         {
-            double m = int.Parse(distance);
-            double s = int.Parse(time);
+            double m = double.Parse(distance);
+            double s = double.Parse(time);
             return m / s;
         }
     }
